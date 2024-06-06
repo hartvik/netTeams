@@ -61,6 +61,6 @@ for device in devices:
 # Send message
 
 s = message + '<br>' + failedMessages
-teamsReport.title('Report Ada Switches')
+teamsReport.title('Report Switches')
 teamsReport.text(s)
 teamsReport.send()
